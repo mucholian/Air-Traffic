@@ -22,31 +22,31 @@ import http.client
 from dateutil.parser import parse
 
 # %% Assumptions
-USERNAME = "mucholian"           # opensky details
-PASSWORD = "Centenus18!"        
+USERNAME = "XXXXXXX"           # opensky details
+PASSWORD = "XXXXXXX"        
 # doing a new round on airports that didnt have good data airports_icao
-airp = pd.read_csv('C:/Users/Moses/Python/flights_data/airports2.csv') # airports db from data provider
+airp = pd.read_csv('C:/Users/Moses/Python/flights_data/airports2.csv')      # airports db from data provider
 airp_headers = ['iata','city','state','icao24','latitude_deg','longitude_deg'] # airports data headers
-ARIP_LIST = airp['icao24'].tolist()   # list of airports that want to track
-MODE = 'departure'  #In case we want to do loops for both MODE = ['departure','arrival']                 
+ARIP_LIST = airp['icao24'].tolist()    # list of airports that want to track
+MODE = 'departure'                     # In case we want to do loops for both MODE = ['departure','arrival']                 
 # all the fields in the response string:
 names = ['icao24','firstSeen','estDepartureAirport','lastSeen', 'estArrivalAirport','callsign',
 'estDepartureAirportHorizDistance','estDepartureAirportVertDistance','estArrivalAirportHorizDistance',
 'estArrivalAirportVertDistance','departureAirportCandidatesCount','arrivalAirportCandidatesCount'] 
 subset = ['icao24','callsign','estDepartureAirport','estArrivalAirport','lastSeen'] # only select these ones for db
 
-# %% Set time paramaters here
+# %% Set datetime paramaters and global dataframes here
 start_year = 2015   # this is the start date for queries
 start_date = datetime.date(year=start_year,month=1,day=1) #start date for sending queries
 time_range = 7      # days - for max query range for airports
-today = datetime.datetime.utcnow()  # database is based on UTC
+today = datetime.datetime.utcnow()        # database is based on UTC
 today = today.date()
-end_date = today     # Time is UCT. Only at 8pm ETS we will get today's full list for today (In OpenSky's system)
+end_date = today                          # Time is UCT. Only at 8pm ETS we will get today's full list for today (In OpenSky's system)
 print(end_date)
-global_index = pd.date_range(start=start_date,end=end_date, freq='W-FRI')   # create weekly datetime_index ending the most recent week
+global_index = pd.date_range(start=start_date,end=end_date, freq='W-FRI')   # create weekly datetime_index efrom start date to now
 global_df = pd.DataFrame(index=global_index,columns=ARIP_LIST)  # used to map data availability
-global_df['date'] = global_index    # if -1 means request failed (line 55-57)
-conn = sqlite3.connect('flights_data.db')   # db name
+global_df['date'] = global_index          # if -1 means request failed (line 55-57)
+conn = sqlite3.connect('flights_data.db') # db name
 c = conn.cursor()
 
 # %% API QUERIES FOR DEPARTURES
@@ -91,3 +91,6 @@ for AA in ARIP_LIST:                         # Outer loop is for each airport
 conn.close() 
 filename = 'C:/Users/Moses/Python/flights_data_new/' + 'all' + '_' + MODE[0] + '.csv' #
 global_df.to_csv(filename)                   #this is the global df file. basically maps out which period for which airport did not return anything.
+
+
+
