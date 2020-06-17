@@ -1,0 +1,40 @@
+ticker,long_name,short_name
+DOEBDIST Index,DOE Total US Distillate Fuel Exports,DOE Total US Dist Fuel Exports
+DOEBKJET Index,DOE Total US Kerosene-type Jet Fuel Exports,DOE Total US Jet Fuel Exports
+DOEIJETK Index,DOE Jet Fuel Kerosene Total Import Data,DOE Tot Jet Fuel Kero Imports
+DOEIJET1 Index,DOE Jet Kerosene Import Data/PADD 1,Jet Kerosene Imports/PADD 1
+DOEIJET2 Index,DOE Jet Kerosene Import Data/PADD 2,Jet Kerosene Imports/PADD 2
+DOEIJET3 Index,DOE Jet Kerosene Import Data/PADD 3,Jet Kerosene Imports/PADD 3
+DOEIJET4 Index,DOE Jet Kerosene Import Data/PADD 4,Jet Kerosene Imports/PADD 4
+DOEIJET5 Index,DOE Jet Kerosene Import Data/PADD 5,Jet Kerosene Imports/PADD 5
+DOEIKERO Index,US DOE Total Kerosene Imports Data,DOE Total Kerosene Imports
+DOEPCRIN Index,DOE Crude Oil Total Refinery Input Data,Total Crude Refinery Inputs
+DOEPCRP1 Index,DOE Crude Oil Refinery Input Data/PADD 1,Crude Refinery Input/PADD 1
+DOEPCRP2 Index,DOE Crude Oil Refinery Input Data/PADD 2,Crude Refinery Input/PADD 2
+DOEPCRP3 Index,DOE Crude Oil Refinery Input Data/PADD 3,Crude Refinery Input/PADD 3
+DOEPCRP4 Index,DOE Crude Oil Refinery Input Data/PADD 4,Crude Refinery Input/PADD 4
+DOEPCRP5 Index,DOE Crude Oil Refinery Input Data/PADD 5,Crude Refinery Input/PADD 5
+DOEIDIS1 Index,DOE Distillates Import Data/PADD 1,Distillates Imports/PADD 1
+DOEIDIS2 Index,DOE Distillates Import Data/PADD 2,Distillates Imports/PADD 2
+DOEIDIS3 Index,DOE Distillates Import Data/PADD 3,Distillates Imports/PADD 3
+DOEIDIS4 Index,DOE Distillates Import Data/PADD 4,Distillates Imports/PADD 4
+DOEIDIS5 Index,DOE Distillates Import Data/PADD 5,Distillates Imports/PADD 5
+DOEIDIST Index,DOE Distillate Fuel Oil Total Import Data,DOE Tot Dist Fuel Oil Imports
+DOEPPCP1 Index,DOE Percent Utilization Refinery Operable Capacity Data/PADD1,% Util Refinery Op Cap PADD1
+DOEPPCP2 Index,DOE Percent Utilization Refinery Operable Capacity Data/PADD2,% Util Refinery Op Cap PADD2
+DOEPPCP3 Index,DOE Percent Utilization Refinery Operable Capacity Data/PADD3,% Util Refinery Op Cap PADD3
+DOEPPCP4 Index,DOE Percent Utilization Refinery Operable Capacity Data/PADD4,% Util Refinery Op Cap PADD4
+DOEPPCP5 Index,DOE Percent Utilization Refinery Operable Capacity Data/PADD5,% Util Refinery Op Cap PADD 5
+DOEPPERC Index,DOE Percent Utilization Refinery Operable Capacity Data,% Util Refinery Operable Capac
+DOESDIS1 Index,DOE Distillate Fuel Oil Inventory Data/PADD 1,DOE Fuel Oil Inventory/Dist 1
+DOESDIS2 Index,DOE Distillate Fuel Oil Inventory Data/PADD 2,DOE Fuel Oil Inventory/Dist 2
+DOESDIS3 Index,DOE Distillate Fuel Oil Inventory Data/PADD 3,DOE Fuel Oil Inventory/Dist 3
+DOESDIS4 Index,DOE Distillate Fuel Oil Inventory Data/PADD 4,DOE Fuel Oil Inventory/Dist 4
+DOESDIS5 Index,DOE Distillate Fuel Oil Inventory Data/PADD 5,DOE Fuel Oil Inventory/Dist 5
+DOESDIST Index,DOE Distillate Fuel Oil Total Inventory Data,DOE Dist Fuel Oil Tot Invent
+DOESJET1 Index,DOE Jet Kerosene Inventory Data/PADD 1,DOE Jet Kero Inventory/Dist 1
+DOESJET2 Index,DOE Jet Kerosene Inventory Data/PADD 2,DOE Jet Kero Inventory/Dist 2
+DOESJET3 Index,DOE Jet Kerosene Inventory Data/PADD 3,DOE Jet Kero Inventory/Dist 3
+DOESJET4 Index,DOE Jet Kerosene Inventory Data/PADD 4,DOE Jet Kero Inventory/Dist 4
+DOESJET5 Index,DOE Jet Kerosene Inventory Data/PADD 5,DOE Jet Kero Inventory/Dist 5
+DOESJETK Index,DOE Jet Kerosene Total Inventory Data,DOE Total Jet Kero Inventory
