@@ -2,8 +2,10 @@
 Moses Rahnama
 
 This project looks at air traffic data during COVID-19 and the impact on Jet Fuel cracks, timespreads, and Gasoil/Jet Fuel spreads.
+While it is incredibly challenging to predict and model how COVID will progress, I have conducted a 
 
-Sources of data.
+
+### Data Sources
 1) OpenSkyNetwork for detailed air trafic data https://opensky-network.org/. This is the link for the REST API doc https://opensky-network.org/apidoc/rest.html. Their Python API has very limited use.
 2) EnergyAspects (EA) for historical data, and balances forecast. EA is exceptionally strong in the oil and products marlets, and particluarly Jet Fuel, and their estimates are usually not far off from consensus.
 3) The EIA for supply and demand data.
