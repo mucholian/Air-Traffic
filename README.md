@@ -1,5 +1,5 @@
-# drw
-DRW - Moses Rahnama
+## DRW Project
+Moses Rahnama
 
 This project looks at air traffic data during COVID-19 and the impact on Jet Fuel cracks, timespreads, and Gasoil/Jet Fuel spreads.
 Sources of data.
