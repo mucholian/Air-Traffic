@@ -1,5 +1,5 @@
 """
-This program will obtain historical data from OpenSky API. I have chosen to evaluate 'departures' and 'arrivals' for major airport to evaluate traffic and calculate demand for jet fuel.
+This program will obtain historical data from OpenSky REST API. I have chosen to evaluate 'departures' and 'arrivals' for major airport to evaluate traffic and calculate demand for jet fuel.
 OpenSky servers are slow and it will take a while to download the data. Unless they grant access to their Impala Shell service.
 NOTE: Data license for this project data only allows private/academic research. 
      "Your account has been granted access to our database for any non-commercial purposes."
@@ -22,8 +22,9 @@ import http.client
 from dateutil.parser import parse
 
 # %% Assumptions
-USERNAME = "mucholian"           # opensky details
-PASSWORD = "Centenus18!"        
+## Happy to update this anytime needed for the purpose of this study
+USERNAME = "*****"    # opensky details
+PASSWORD = "*****"    # opensky details   
 # doing a new round on airports that didnt have good data airports_icao
 airp = pd.read_csv('C:/Users/Moses/Python/flights_data/airports2.csv') # airports db from data provider
 airp_headers = ['iata','city','state','icao24','latitude_deg','longitude_deg'] # airports data headers
