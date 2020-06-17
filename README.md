@@ -2,7 +2,7 @@
 Moses Rahnama
 
 This project looks at air traffic data during COVID-19 and the impact on Jet Fuel cracks, timespreads, and Gasoil/Jet Fuel spreads.
-While it is incredibly challenging to predict and model how COVID-19 will progress.....  
+While it is incredibly challenging to predict and model how COVID-19 will progress.... 
 
 This is a fully automated platform and within the next week or two, I expect to have completed a live platform for real time trade signals for the derivatives included in this project.
 
