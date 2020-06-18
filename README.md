@@ -13,3 +13,6 @@ This is a fully automated platform and within the next week or two, I expect to 
 4) Bloomberg for historical prices.
 5) NYTimes and Johns Hopkins University for COVID-19 stats.
 
+### Derivatives
+I have evaluated the following derivatives.
+- 
