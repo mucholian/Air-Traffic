@@ -7,11 +7,12 @@ While it is incredibly challenging to predict and model how COVID-19 will progre
 This is a fully automated platform and within the next week or two, I expect to have completed a live platform for real time trade signals for the derivatives included in this project.
 
 ### Data Sources
-1) OpenSkyNetwork for detailed air trafic data https://opensky-network.org/. This is the link for the REST API doc https://opensky-network.org/apidoc/rest.html. (Their Python API is basically disfunctional)
-2) EnergyAspects (EA) for historical data, and balances forecast. EA is exceptionally strong in the oil and products markets, particluarly Jet Fuel, and their estimates oftem forms consensus.
+1) OpenSkyNetwork for detailed air traffic data https://opensky-network.org/. This is the link for the REST API doc https://opensky-network.org/apidoc/rest.html. (Their Python API is basically dysfunctional)
+2) EnergyAspects (EA) for historical data, and balances forecast. EA is exceptionally strong in the oil and products markets, particularly Jet Fuel, and their estimates often forms consensus.
 3) The EIA for supply and demand data.
 4) Bloomberg for historical prices.
 5) NYTimes and Johns Hopkins University for COVID-19 stats.
+
 
 ### Derivatives
 Table below provides the list of products and derivatives (with flat price ticker) used for this project.
