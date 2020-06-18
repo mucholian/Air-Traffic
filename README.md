@@ -8,7 +8,7 @@ This is a fully automated platform and within the next week or two, I expect to 
 
 ### Data Sources
 1) OpenSkyNetwork for detailed air trafic data https://opensky-network.org/. This is the link for the REST API doc https://opensky-network.org/apidoc/rest.html. Their Python API has very limited use.
-2) EnergyAspects (EA) for historical data, and balances forecast. EA is exceptionally strong in the oil and products marlets, and particluarly Jet Fuel, and their estimates are usually not far off from consensus.
+2) EnergyAspects (EA) for historical data, and balances forecast. EA is exceptionally strong in the oil and products markets, particluarly Jet Fuel, and their estimates oftem forms consensus.
 3) The EIA for supply and demand data.
 4) Bloomberg for historical prices.
 5) NYTimes and Johns Hopkins University for COVID-19 stats.
