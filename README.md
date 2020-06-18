@@ -14,5 +14,4 @@ This is a fully automated platform and within the next week or two, I expect to 
 5) NYTimes and Johns Hopkins University for COVID-19 stats.
 
 ### Derivatives
-I have evaluated the following derivatives.
-- 
+aaaa
