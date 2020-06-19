@@ -25,7 +25,7 @@ Besides EA that does not have an API yet, all the other data are automatically g
 ## Methodology
 To predict 
 
-![U.S. PADD Regions](https://images.app.goo.gl/QxE8miWWa67R9rJNA)
+![U.S. PADD Regions](https://www.eia.gov/petroleum/gasdiesel/images/paddmap-gas-m2.png)
 
 ##### Derivatives
 Table below provides the list of products and derivatives (with flat price ticker) used for this project. (full ticker list is in the Bloomberg directory)
