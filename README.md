@@ -23,7 +23,9 @@ For this project, I have created an almost fully automated model that runs on li
 Besides EA that does not have an API yet, all the other data are automatically gathered and updated via API. Codes are all available in the python module folder.
 
 ## Methodology
+To predict 
 
+![U.S. PADD Regions](https://images.app.goo.gl/QxE8miWWa67R9rJNA)
 
 ##### Derivatives
 Table below provides the list of products and derivatives (with flat price ticker) used for this project. (full ticker list is in the Bloomberg directory)
