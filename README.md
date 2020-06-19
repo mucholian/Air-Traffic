@@ -8,12 +8,15 @@ An increasing number of commodity traders are actively looking at Jet Fuel to ca
 2) **Regional diffs**: New York (East Coast or PADD 1), LA (West Coast or PADD 5), and Gulf Coast (USGC or PADD 3) all have active Jet Fuel markets and very often have different fundamentals.
 3) **Time spreads**: The futures curves for these regions can also move dramatically based on the underlying fundamentals. 
 4) **Jet Fuel–Diesel**: These two products have a very similar cut in the distillation process and are often used for relative trades. This is a much bigger in Asia where Kerosene (lower quality JF) and diesel are used interchangeably for heating during winter. (Japan, Korea, China most) 
+
+# charts here - price and traffic
+
 For this project, I have created an almost fully automated model that runs on live air traffic data to spot any trade signals as they arise.
 
 ## Data Sources
 1) **OpenSkyNetwork** for detailed air traffic data https://opensky-network.org/. OpenSky has strong coverage only for the US and Europe. OpenSky covers near 70% of US flights, which is enough this project. This is the link to the REST API https://opensky-network.org/apidoc/rest.html.(Their Python API is dysfunctional)
 
-***Important: My OpenSky license is only for non-commercial use. Please contact them if you need to use the data.***
+***Important: This OpenSky license is only for non-commercial use. Please contact them if you need to use the data.***
 
 2) **EnergyAspects (EA)** for historical data, and balances forecast. EA is exceptionally strong in the oil and products markets, particularly Jet Fuel, and their estimates often forms consensus.
 3) **The EIA** for historical (and lagged) PADD level S/D data, and for more recent, but less detailed, weekly data.
@@ -23,7 +26,11 @@ For this project, I have created an almost fully automated model that runs on li
 Besides EA that does not have an API yet, all the other data are automatically gathered and updated via API. Codes are all available in the python module folder.
 
 ## Methodology
-To predict 
+I have constructed mt analysis based on the following steps.
+#### 1) Daily Demand Estimate
+Jet Fuel demand based on OpenSky and PADD level EIA demand data. 
+
+2) **Regional Balances**
 
 ![U.S. PADD Regions](https://www.eia.gov/petroleum/gasdiesel/images/paddmap-gas-m2.png)
 
