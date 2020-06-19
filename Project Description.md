@@ -11,7 +11,10 @@ An increasing number of commodity traders are actively looking at Jet Fuel to ca
 For this project, I have created an almost fully automated model that runs on live air traffic data to spot any trade signals as they arise.
 
 ## Data Sources
-1) **OpenSkyNetwork** for detailed air traffic data https://opensky-network.org/. OpenSky has strong coverage only for the US and Europe. OpenSky covers near 70% of US flights, which is enough this project. This is the link to the REST API https://opensky-network.org/apidoc/rest.html. (Their Python API is dysfunctional)
+1) **OpenSkyNetwork** for detailed air traffic data https://opensky-network.org/. OpenSky has strong coverage only for the US and Europe. OpenSky covers near 70% of US flights, which is enough this project. This is the link to the REST API https://opensky-network.org/apidoc/rest.html.(Their Python API is dysfunctional)
+
+***Please note: My OpenSky license is only for personal and non-commercial use. Please contact them if you need to use the data***
+
 2) **EnergyAspects (EA)** for historical data, and balances forecast. EA is exceptionally strong in the oil and products markets, particularly Jet Fuel, and their estimates often forms consensus.
 3) **The EIA** for historical (and lagged) PADD level S/D data, and for more recent, but less detailed, weekly data.
 4) **Bloomberg** for historical prices.
@@ -19,7 +22,10 @@ For this project, I have created an almost fully automated model that runs on li
 
 Besides EA that does not have an API yet, all the other data are automatically gathered and updated via API. Codes are all available in the python module folder.
 
-#### Derivatives
+## Methodology
+
+
+##### Derivatives
 Table below provides the list of products and derivatives (with flat price ticker) used for this project. (full ticker list is in the Bloomberg directory)
 
 | Bloomberg Ticker | Description | Unit |
