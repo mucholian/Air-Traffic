@@ -13,7 +13,7 @@ For this project, I have created an almost fully automated model that runs on li
 ## Data Sources
 1) **OpenSkyNetwork** for detailed air traffic data https://opensky-network.org/. OpenSky has strong coverage only for the US and Europe. OpenSky covers near 70% of US flights, which is enough this project. This is the link to the REST API https://opensky-network.org/apidoc/rest.html.(Their Python API is dysfunctional)
 
-***Please note: My OpenSky license is only for personal and non-commercial use. Please contact them if you need to use the data***
+***Important: My OpenSky license is only for non-commercial use. Please contact them if you need to use the data.***
 
 2) **EnergyAspects (EA)** for historical data, and balances forecast. EA is exceptionally strong in the oil and products markets, particularly Jet Fuel, and their estimates often forms consensus.
 3) **The EIA** for historical (and lagged) PADD level S/D data, and for more recent, but less detailed, weekly data.
