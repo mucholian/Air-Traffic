@@ -18,7 +18,7 @@ For this project, I have created a soon-to-be fully automated model to identify 
 5) NYTimes and Johns Hopkins University for COVID-19 stats.
 
 
-### Derivatives
+#### Derivatives
 Table below provides the list of products and derivatives (with flat price ticker) used for this project. (full ticker list is in the Bloomberg directory)
 
 | Bloomberg Ticker | Description | Unit |
