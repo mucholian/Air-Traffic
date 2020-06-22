@@ -12,11 +12,14 @@ An increasing number of commodity traders are actively looking at Jet Fuel to ca
 Here we can see number of daily departures from JFK has dramatically fallen.  
 
 **JFK Daily Departures**
+
 ![JFK Daily Departures](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/jfk_daily_departures_1.png)
 
-However, the average distance per flight has significantly increased, which means most of cancelled flights are short haul. In my analysis I have calculated distance travelled for every flight leaving any of the top 50 busiest airports in the US.
+However, the average distance per flight has significantly increased, which means most of cancelled flights are short haul.
+In my analysis I have calculated distance travelled for every flight leaving any of the top 50 busiest airports in the US.
 
 **JFK Average Departing Flight Distance**
+
 ![JFK Average Departing Flight Distance](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/jfk_distance_2.png)
 
 
@@ -51,7 +54,7 @@ Jet Fuel demand based on OpenSky and PADD level EIA demand data.
  **3) Prices**
  - This is the only bit of the project that I used R instead of Python. File is uploaded as LASSO.r.
  - I ran multiple LASSO regressions to find the best model for each spread.
- The example I give here is LA-New York_M2 spread.
+ - The example I give here is LA_NYk_M2 Jet Fuel spread.
  
 linear model has the following output
 
