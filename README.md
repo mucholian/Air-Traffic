@@ -57,6 +57,16 @@ Jet Fuel demand based on OpenSky and PADD level EIA demand data.
  **3) Prices**
  - This is the only bit of the project that I used R instead of Python.
  - I ran multiple LASSO regressions to find the best model for each spread.
+ The example I give here is LA-New York_M2 spread.
+ A linnear multiple regression has the following output:
+![GLM](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/LM_1.png)
+Essentially every variable's arros range crosses 0, whcih means the model is not useful.
+But LASSO privides following coefs within min and 1se lambda
+![LASSO COEFS](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/COEF_PLT.png)
+and selects following varibales for the model
+![LASSO COEFS](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/LASSO.png)
+Essentially change in Jet Fuel out put in PADD 5 has the biggest impact on the spread.
+
 
 ##### Derivatives
 Table below provides the list of products and derivatives (with flat price ticker) used for this project. (full ticker list is in the Bloomberg directory)
