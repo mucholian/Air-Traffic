@@ -46,9 +46,15 @@ Jet Fuel demand based on OpenSky and PADD level EIA demand data.
 ![PADD 1 OLS Regression Results](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/padd1_ols.JPG)
 
 
-2) **Regional Balances**
-- I have used EIA weekly data for most recent balances and to analyse regional spreads and diffs.
+ **2) Regional Balances**
+- I have used EIA weekly data for most recent balances. For forward balances, I have used 3rd party forecasts for refining runs. 
+- Refinining runs are not difficult to forecast based on forward cracks and maintenance schedule.
+
 ![U.S. PADD Regions](https://www.eia.gov/petroleum/gasdiesel/images/paddmap-gas-m2.png)
+
+ **3) Prices**
+ - This is the only bit of the project that I used R instead of Python.
+ - I ran multiple LASSO regressions to find the best model for each spread.
 
 ##### Derivatives
 Table below provides the list of products and derivatives (with flat price ticker) used for this project. (full ticker list is in the Bloomberg directory)
