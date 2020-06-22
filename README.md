@@ -11,13 +11,10 @@ An increasing number of commodity traders are actively looking at Jet Fuel to ca
 
 
 **JFK Daily Departures**
-
-![JFK Daily Departures](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/jfk_daily_departures.png)
-
+![JFK Daily Departures](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/jfk_daily_departures_1.png)
 
 **JFK Average Departing Flight Distance**
-
-![JFK Average Departing Flight Distance](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/jfk_distance.png)
+![JFK Average Departing Flight Distance](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/jfk_distance_2.png)
 
 
 For this project, I have created an almost fully automated model that runs on live air traffic data to spot any trade signals as they arise.
