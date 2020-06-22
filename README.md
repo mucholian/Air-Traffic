@@ -9,10 +9,12 @@ An increasing number of commodity traders are actively looking at Jet Fuel to ca
 3) **Time spreads**: The futures curves for these regions can also move dramatically based on the underlying fundamentals. 
 4) **Jet Fuel–Diesel**: These two products have a very similar cut in the distillation process and are often used for relative trades. This is a much bigger in Asia where Kerosene (lower quality JF) and diesel are used interchangeably for heating during winter. (Japan, Korea, China most) 
 
-# charts - price and traffic
+### charts - price and traffic
 
+JFK Daily Departures
 ![JFK Daily Departures](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/jfk_daily_departures.png)
 
+JFK Average Departing Flight Distance
 ![JFK Average Departing Flight Distance](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/jfk_distance.png)
 
 
