@@ -36,7 +36,7 @@ names = ['icao24','firstSeen','estDepartureAirport','lastSeen', 'estArrivalAirpo
 subset = ['icao24','callsign','estDepartureAirport','estArrivalAirport','lastSeen'] # only select these ones for db
 
 # %% Set time paramaters here
-start_year = 2018       # Data before 2017/2018 is a mess. set the start date for queries. 
+start_year = 2015       # Data before 2017/2018 is a mess...
 start_date = datetime.date(year=start_year,month=1,day=1)   # start date for sending queries
 time_range = 7          # days - for max query range for airports
 today = datetime.datetime.utcnow()  # database is based on UTC
