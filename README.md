@@ -37,7 +37,8 @@ Besides EA that does not have an API yet, all the other data are automatically g
 ## Methodology
 I have constructed mt analysis based on the following steps.
 #### 1) Daily Demand Estimate
-Jet Fuel demand based on OpenSky and PADD level EIA demand data. 
+Jet Fuel demand based on OpenSky and PADD level EIA demand data.
+- This is done in the daily_demand_calculations file uploaded above.
 
 2) **Regional Balances**
 
