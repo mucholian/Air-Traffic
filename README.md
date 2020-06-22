@@ -10,12 +10,12 @@ An increasing number of commodity traders are actively looking at Jet Fuel to ca
 4) **Jet Fuel–Diesel**: These two products have a very similar cut in the distillation process and are often used for relative trades. This is a much bigger in Asia where Kerosene (lower quality JF) and diesel are used interchangeably for heating during winter. (Japan, Korea, China most) 
 
 
-JFK Daily Departures
+**JFK Daily Departures**
 
 ![JFK Daily Departures](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/jfk_daily_departures.png)
 
 
-JFK Average Departing Flight Distance
+**JFK Average Departing Flight Distance**
 
 ![JFK Average Departing Flight Distance](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/jfk_distance.png)
 
@@ -41,7 +41,7 @@ Jet Fuel demand based on OpenSky and PADD level EIA demand data.
 - This is done in the daily_demand_calculations file uploaded above.
 
 2) **Regional Balances**
-
+- I have used EIA weekly data (in the supporting fi
 ![U.S. PADD Regions](https://www.eia.gov/petroleum/gasdiesel/images/paddmap-gas-m2.png)
 
 ##### Derivatives
