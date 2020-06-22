@@ -24,10 +24,7 @@ For this project, I have created an almost fully automated model that runs on li
 
 ## Data
 1) **OpenSkyNetwork** for detailed air traffic data https://opensky-network.org/. OpenSky has strong coverage only for the US and Europe. OpenSky covers near 70% of US flights, which is enough this project. This is the link to the REST API https://opensky-network.org/apidoc/rest.html.(Their Python API is dysfunctional)
-- The opensky_api.py file in the python_modules folder collected 5 years of data from opensky and stored aboud 3GB of data in my local database. 
-
-***Important: This OpenSky license is only for non-commercial use. Please contact them if you need to use the data.***
-
+- The opensky_api.py file in the python_modules folder collected 5 years of data from opensky and stored about 3GB of data in my local database. ***Please ask OpenSky for license if you intend to use their data***
 2) **EnergyAspects (EA)** for historical data, and balances forecast. EA is exceptionally strong in the oil and products markets, particularly Jet Fuel, and their estimates often forms consensus. (also subscription based)
 3) **The EIA** for historical (and lagged) PADD level S/D data, and for more recent, but less detailed, weekly data.
 4) **Bloomberg** for historical prices.
@@ -41,31 +38,39 @@ I have constructed mt analysis based on the following steps.
 Jet Fuel demand based on OpenSky and PADD level EIA demand data.
 - This is done in the daily_demand_calculations file uploaded above.
 - Table below is PADD 1 OLS regression results for Jet Fuel demand against "miles per day" travelled out of PADD 1 airports.
-- Other PADDs have similar accurate results.
+- Other PADDs have similar accurate results. Available in the daily_demand_calculation notebook.
 
 ![PADD 1 OLS Regression Results](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/padd1_ols.JPG)
 
-
  **2) Regional Balances**
 - I have used EIA weekly data for most recent balances.
--- Supply: I am using 3rd party forecasts just for the purpose of this project. I have experience forecasting refinining runs.
--- Demand: I am using my model for daily demand forecast.
--- Import/Exports: PADDs 1 and 5 rely heavily on imports. This can be modelled on arbs based on shipping rates and price diffs with Europe and Asia.
+- Supply: I will use 3rd party forecasts for this project. I have extensive experience forecasting refining runs but do not have access to the data.
+- Demand: I am using my model for daily demand forecast. Next step is to model/assume the rate of recovery in air travel. 
+- Import/Exports: PADDs 1 and 5 rely heavily on imports. This can be modelled on arbs based on shipping rates and price diffs with Europe and Asia.
 
 ![U.S. PADD Regions](https://www.eia.gov/petroleum/gasdiesel/images/paddmap-gas-m2.png)
 
  **3) Prices**
- - This is the only bit of the project that I used R instead of Python.
+ - This is the only bit of the project that I used R instead of Python. File is uploaded as LASSO.r.
  - I ran multiple LASSO regressions to find the best model for each spread.
  The example I give here is LA-New York_M2 spread.
- A linnear multiple regression has the following output:
+ 
+linear model has the following output
+
 ![GLM](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/LM_1.png)
-Essentially every variable's arros range crosses 0, whcih means the model is not useful.
-But LASSO privides following coefs within min and 1se lambda
+
+Essentially every variable's error range crosses 0, which means the model is not useful.
+
+But LASSO provides following coefs within min and 1se lambda
+
 ![LASSO COEFS](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/COEF_PLT.png)
-and selects following varibales for the model
+
+and selects following variables for the model
+
 ![LASSO COEFS](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/LASSO.png)
+
 Essentially change in Jet Fuel out put in PADD 5 has the biggest impact on the spread.
+
 
 
 ##### Derivatives
