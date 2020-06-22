@@ -9,15 +9,16 @@ An increasing number of commodity traders are actively looking at Jet Fuel to ca
 3) **Time spreads**: The futures curves for these regions can also move dramatically based on the underlying fundamentals. 
 4) **Jet Fuel–Diesel**: These two products have a very similar cut in the distillation process and are often used for relative trades. This is a much bigger in Asia where Kerosene (lower quality JF) and diesel are used interchangeably for heating during winter. (Japan, Korea, China most) 
 
+Here we can see number of daily departures from JFK has dramatically fallen.  
 
 **JFK Daily Departures**
 ![JFK Daily Departures](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/jfk_daily_departures_1.png)
 
+However, the average distance per flight has significantly increased, which means most of cancelled flights are short haul. In my analysis I have calculated distance travelled for every flight leaving any of the top 50 busiest airports in the US.
+
 **JFK Average Departing Flight Distance**
 ![JFK Average Departing Flight Distance](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/jfk_distance_2.png)
 
-
-For this project, I have created an almost fully automated model that runs on live air traffic data to spot any trade signals as they arise.
 
 ## Data
 1) **OpenSkyNetwork** for detailed air traffic data https://opensky-network.org/. OpenSky has strong coverage only for the US and Europe. OpenSky covers near 70% of US flights, which is enough this project. This is the link to the REST API https://opensky-network.org/apidoc/rest.html.(Their Python API is dysfunctional)
@@ -66,6 +67,7 @@ and selects following variables for the model
 
 ![LASSO COEFS](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/LASSO.png)
 
+CH_P5_PR is weekly change in Jet Fuel supply in PADD 5. CL_2_3 is timespred between CL1 and CL2. HO_1_2 is timespred between CL1 and CL2  
 Essentially change in Jet Fuel out put in PADD 5 has the biggest impact on the spread.
 
 
