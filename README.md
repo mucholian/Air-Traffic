@@ -70,8 +70,8 @@ and selects following variables for the model
 
 ![LASSO COEFS](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/LASSO.png)
 
-CH_P5_PR is weekly change in Jet Fuel supply in PADD 5. CL_2_3 is timespred between CL1 and CL2. HO_1_2 is timespred between CL1 and CL2  
-Essentially change in Jet Fuel out put in PADD 5 has the biggest impact on the spread.
+CH_P5_PR is weekly change in Jet Fuel supply in PADD 5. CL_2_3 is time spread between CL1 and CL2. HO_1_2 is time spread between HO1 and HO2. Essentially change in Jet Fuel output in PADD 5 has the biggest impact on the spread.
+This is most likely because of constant refinery issues in California.
 
 
 
