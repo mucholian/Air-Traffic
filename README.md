@@ -47,7 +47,7 @@ Jet Fuel demand based on OpenSky and PADD level EIA demand data.
 
 
 2) **Regional Balances**
-- I have used EIA weekly data (in the supporting fi
+- I have used EIA weekly data for most recent balances and to analyse regional spreads and diffs.
 ![U.S. PADD Regions](https://www.eia.gov/petroleum/gasdiesel/images/paddmap-gas-m2.png)
 
 ##### Derivatives
