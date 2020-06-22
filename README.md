@@ -11,6 +11,11 @@ An increasing number of commodity traders are actively looking at Jet Fuel to ca
 
 # charts - price and traffic
 
+![JFK Daily Departures](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/jfk_daily_departures.png)
+
+![JFK Average Departing Flight Distance](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/jfk_distance.png)
+
+
 For this project, I have created an almost fully automated model that runs on live air traffic data to spot any trade signals as they arise.
 
 ## Data Sources
