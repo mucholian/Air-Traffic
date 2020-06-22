@@ -40,6 +40,34 @@ I have constructed mt analysis based on the following steps.
 #### 1) Daily Demand Estimate
 Jet Fuel demand based on OpenSky and PADD level EIA demand data.
 - This is done in the daily_demand_calculations file uploaded above.
+- Table below is PADD 1 demand regression against "miles per day" travel from main PADD 1 airports.
+- Other PADDs have similar accurate results
+
+OLS Regression Results                                
+=======================================================================================
+Dep. Variable:                 PADD 1   R-squared (uncentered):                   0.978
+Model:                            OLS   Adj. R-squared (uncentered):              0.977
+Method:                 Least Squares   F-statistic:                              753.8
+Date:                Mon, 22 Jun 2020   Prob (F-statistic):                    1.60e-15
+Time:                        09:31:11   Log-Likelihood:                         -105.37
+No. Observations:                  18   AIC:                                      212.7
+Df Residuals:                      17   BIC:                                      213.6
+Df Model:                           1                                                  
+Covariance Type:            nonrobust                                                  
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+miles_per_day_p1     0.0001   3.67e-06     27.455      0.000     9.3e-05       0.000
+==============================================================================
+Omnibus:                        1.347   Durbin-Watson:                   0.568
+Prob(Omnibus):                  0.510   Jarque-Bera (JB):                0.544
+Skew:                           0.424   Prob(JB):                        0.762
+Kurtosis:                       3.081   Cond. No.                         1.00
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
 
 2) **Regional Balances**
 - I have used EIA weekly data (in the supporting fi
