@@ -47,8 +47,10 @@ Jet Fuel demand based on OpenSky and PADD level EIA demand data.
 
 
  **2) Regional Balances**
-- I have used EIA weekly data for most recent balances. For forward balances, I have used 3rd party forecasts for refining runs. 
-- Refinining runs are not difficult to forecast based on forward cracks and maintenance schedule.
+- I have used EIA weekly data for most recent balances.
+-- Supply: I am using 3rd party forecasts just for the purpose of this project. I have experience forecasting refinining runs.
+-- Demand: I am using my model for daily demand forecast.
+-- Import/Exports: PADDs 1 and 5 rely heavily on imports. This can be modelled on arbs based on shipping rates and price diffs with Europe and Asia.
 
 ![U.S. PADD Regions](https://www.eia.gov/petroleum/gasdiesel/images/paddmap-gas-m2.png)
 
