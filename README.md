@@ -41,7 +41,7 @@ Jet Fuel demand based on OpenSky and PADD level EIA demand data.
 
  **2) Regional Balances**
 - I have used EIA weekly data for most recent balances.
-- Supply: I will use 3rd party forecasts for this project. I have extensive experience forecasting refining runs but do not have access to the data.
+- Supply: I will use 3rd party forecasts for this project. Refining runs are a function of margins and can be modelled with good accuracy based on forward cracks.
 - Demand: I am using my model for daily demand forecast. Next step is to model/assume the rate of recovery in air travel. 
 - Import/Exports: PADDs 1 and 5 rely heavily on imports. This can be modelled on arbs based on shipping rates and price diffs with Europe and Asia.
 
