@@ -22,8 +22,8 @@ import http.client
 from dateutil.parser import parse
 
 # %% Assumptions
-USERNAME = "mucholian"           # opensky details
-PASSWORD = "Centenus18!"        
+USERNAME = "xxx"           # opensky details
+PASSWORD = "xxx"        
 # doing a new round on airports that didnt have good data airports_icao
 airp = pd.read_csv('C:/Users/Moses/Python/flights_data/airports2.csv') # airports db from data provider
 airp_headers = ['iata','city','state','icao24','latitude_deg','longitude_deg'] # airports data headers
