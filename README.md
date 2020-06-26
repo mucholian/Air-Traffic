@@ -54,7 +54,7 @@ Total U.S. weekly demand estimates vs DOE
  **3) Prices**
  - This is the only bit of the project that I used R instead of Python. File is uploaded as LASSO.r.
  - I ran multiple LASSO regressions to find the best model for each spread.
- - The example I give here is LA_NYk_M2 Jet Fuel spread.
+ - The example I give here is LA_NY_M2 Jet Fuel spread.
  
 linear model has the following output
 
