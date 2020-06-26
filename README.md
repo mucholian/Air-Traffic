@@ -56,6 +56,8 @@ Total U.S. weekly demand estimates vs DOE
  - I ran multiple LASSO regressions to find the best model for each spread.
  - The example I give here is LA_NY_M2 Jet Fuel spread.
  
+ ![LA_NA_M@](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/LA_NY_M2.png)
+ 
 linear model has the following output
 
 ![GLM](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/LM_1.png)
