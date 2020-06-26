@@ -47,7 +47,7 @@ Jet Fuel demand based on OpenSky and PADD level EIA demand data.
 
 ![U.S. PADD Regions](https://www.eia.gov/petroleum/gasdiesel/images/paddmap-gas-m2.png)
 
-Weekly demand estimates vs DOE
+Total U.S. weekly demand estimates vs DOE
 
 ![Demand](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/demand.png)
 
