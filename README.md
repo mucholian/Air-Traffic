@@ -47,6 +47,10 @@ Jet Fuel demand based on OpenSky and PADD level EIA demand data.
 
 ![U.S. PADD Regions](https://www.eia.gov/petroleum/gasdiesel/images/paddmap-gas-m2.png)
 
+Weekly demand estimates vs DOE
+
+![Demand](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/demand.png)
+
  **3) Prices**
  - This is the only bit of the project that I used R instead of Python. File is uploaded as LASSO.r.
  - I ran multiple LASSO regressions to find the best model for each spread.
@@ -68,7 +72,6 @@ and selects following variables for the model
 
 CH_P5_PR is weekly change in Jet Fuel supply in PADD 5. CL_2_3 is time spread between CL1 and CL2. HO_1_2 is time spread between HO1 and HO2. Essentially change in Jet Fuel output in PADD 5 has the biggest impact on the spread.
 This is most likely because of constant refinery issues in California.
-
 
 
 ##### Derivatives
