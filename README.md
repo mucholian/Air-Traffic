@@ -30,7 +30,7 @@ Miles travelled is number of departures multiplied by average flight distance Th
 All the data are collected automatically and the model is able to run as a fully automatic platform.
 
 ## Methodology
-I have constructed mt analysis based on the following steps.
+I have constructed my analysis following these steps:
 #### 1) Daily Demand Estimate
 Jet Fuel demand based on OpenSky and PADD level EIA demand data.
 - This is done in the daily_demand_calculations file uploaded above.
