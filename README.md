@@ -5,7 +5,7 @@ Moses Rahnama
 With the spread of COVID-19 and a sharp decline in global air travel, Jet Fuel prices and time spreads, cracks, regional diffs, and Jet Fuel-Diesel (Heating Oil / “HO”/Gasoil) spreads can present significant trading opportunities.
 As a result, an increasing number of commodity traders are actively looking at Jet Fuel. This model is able to find potential price dislocations in the following areas:
 1) **Cracks**: Jet Fuel cracks are the most direct instrument to take a position on aviation industry’s relative fundamentals against crude.
-2) **Regional diffs**: New York (East Coast or PADD 1), LA (West Coast or PADD 5), and Gulf Coast (USGC or PADD 3) all have active Jet Fuel markets and very often have different fundamentals (refinery outages, storms and hurricanes etc.)
+2) **Regional diffs**: New York (East Coast or PADD 1), LA (West Coast or PADD 5), and Gulf Coast (USGC or PADD 3) all have active Jet Fuel markets and very often have different fundamentals (refinery outages, storms and hurricanes etc.).
 3) **Time spreads**: The futures curves for these regions can also move dramatically based on the underlying fundamentals.
 4) **Jet Fuel–Diesel spreads**: These two products have a very similar cut in the distillation process and are often used for relative trades. This is generally a much more active trade in Asian markets.
 
@@ -17,7 +17,7 @@ As a result, an increasing number of commodity traders are actively looking at J
 
 ![PADD 1 Miles Travelled Per Day](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/1.png)
 
-Miles travelled is number of departures multiplied by average flight distance. This is an extremely accurate metric for modelling daily demand (regression results below)
+Miles travelled is number of departures multiplied by average flight distance. This is an extremely accurate metric for modelling daily demand (regression results below).
 
 ## Data
 1) **OpenSkyNetwork** for detailed air traffic data https://opensky-network.org/. OpenSky has strong coverage only for the US and Europe. OpenSky covers near 70% of US flights, which is enough this project. This is the link to the REST API https://opensky-network.org/apidoc/rest.html .(Their Python API is dysfunctional)
@@ -63,7 +63,7 @@ linear model has the following output
 
 Essentially every variable's error range crosses 0, which means the model is not useful.
 
-But LASSO provides following coefs within min and 1se lambda
+But LASSO provides following coefs within min and 1se lambda (tuning factor)
 
 ![LASSO COEFS](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/COEF_PLT.png)
 
@@ -73,7 +73,6 @@ and selects following variables for the model
 
 CH_P5_PR is weekly change in Jet Fuel supply in PADD 5. CL_2_3 is time spread between CL1 and CL2. HO_1_2 is time spread between HO1 and HO2. Essentially change in Jet Fuel output in PADD 5 has the biggest impact on the spread.
 This is most likely because of constant refinery issues in California.
-
 
 ##### Derivatives
 Table below provides the list of products and derivatives (with flat price ticker) used for this project. (full ticker list is in the Bloomberg directory)
