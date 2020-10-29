@@ -2,12 +2,12 @@
 Moses Rahnama
 
 ## Overview
-With the spread of COVID-19 and a sharp decline in global air travel, Jet Fuel prices and time spreads, cracks (Jet price compares to crude), regional diffs, and even Jet Fuel-Diesel (Heating Oil / “HO”/Gasoil) spreads can present significant opportunities.
+With the spread of COVID-19 and a sharp decline in global air travel, Jet Fuel prices and time spreads, cracks, regional diffs, and Jet Fuel-Diesel (Heating Oil / “HO”/Gasoil) spreads can present significant trading opportunities.
 As a result, an increasing number of commodity traders are actively looking at Jet Fuel. This model is able to find potential price dislocations in the following areas:
 1) **Cracks**: Jet Fuel cracks are the most direct instrument to take a position on aviation industry’s relative fundamentals against crude.
 2) **Regional diffs**: New York (East Coast or PADD 1), LA (West Coast or PADD 5), and Gulf Coast (USGC or PADD 3) all have active Jet Fuel markets and very often have different fundamentals (refinery outages, storms and hurricanes etc.)
-3) **Time spreads**: The futures curves for these regions can also move dramatically based on the underlying fundamentals. 
-4) **Jet Fuel–Diesel spreads**: These two products have a very similar cut in the distillation process and are often used for relative trades. This is generally a much more active trade in Asian markets. 
+3) **Time spreads**: The futures curves for these regions can also move dramatically based on the underlying fundamentals.
+4) **Jet Fuel–Diesel spreads**: These two products have a very similar cut in the distillation process and are often used for relative trades. This is generally a much more active trade in Asian markets.
 
 **Below you can see PADD 1 stats up until June 23**
 
@@ -25,12 +25,11 @@ Miles travelled is number of departures multiplied by average flight distance. T
 2) **EnergyAspects (EA)** for historical data, and balances forecast. EA is exceptionally strong in the oil and products markets, particularly Jet Fuel, and their estimates often forms consensus. **(EA data is subscription based)**
 3) **The EIA** for historical (and lagged) PADD level S/D data, and for more recent, but less detailed, weekly data.
 4) **Bloomberg** for historical prices.
-5) **NYTimes** and **Johns Hopkins University** for COVID-19 stats. (next phase of the project)
 
-All the data are collected automatically and the model is able to run as a fully automatic platform.
+All the data are collected automatically and the model is able to run as a fully automated platform.
 
 ## Methodology
-I have constructed my analysis following these steps:
+I have constructed my analysis by following these steps:
 #### 1) Daily Demand Estimate
 Jet Fuel demand based on OpenSky and PADD level EIA demand data.
 - This is done in the daily_demand_calculations file uploaded above.
