@@ -17,7 +17,7 @@ As a result, an increasing number of commodity traders are actively looking at J
 
 ![PADD 1 Miles Travelled Per Day](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/1.png)
 
-Miles travelled is number of departures multiplied by average flight distance This is an extremely accurate metric for modelling daily demand (regression results below)
+Miles travelled is number of departures multiplied by average flight distance. This is an extremely accurate metric for modelling daily demand (regression results below)
 
 ## Data
 1) **OpenSkyNetwork** for detailed air traffic data https://opensky-network.org/. OpenSky has strong coverage only for the US and Europe. OpenSky covers near 70% of US flights, which is enough this project. This is the link to the REST API https://opensky-network.org/apidoc/rest.html .(Their Python API is dysfunctional)
