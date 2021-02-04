@@ -1,4 +1,4 @@
-# Jet Fuel Spreads During COVID
+# Regional Jet Fuel Spreads During COVID
 Moses Rahnama
 
 ## Overview
