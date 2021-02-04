@@ -11,11 +11,11 @@ As a result, an increasing number of commodity traders are actively looking at J
 
 **Below you can see PADD 1 stats up until June 23**
 
-![PADD 1 Daily Departures](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/2.png)
+![PADD 1 Daily Departures](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/Departures.png)
 
-![PADD 1 Average Departing Flight Distance](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/3.png)
+![PADD 1 Average Departing Flight Distance](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/Distance.png)
 
-![PADD 1 Miles Travelled Per Day](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/1.png)
+![PADD 1 Miles Travelled Per Day](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/Miles.png)
 
 **Miles travelled is number of departures multiplied by average flight distance. This is an extremely accurate metric for modelling daily demand using a linear model.**
 
