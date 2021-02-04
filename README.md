@@ -42,7 +42,7 @@ Jet Fuel demand based on OpenSky and PADD level EIA demand data.
 - I have used EIA weekly data for most recent balances.
 - Supply: I will use 3rd party forecasts for this project. Refining runs are a function of margins and can be modelled with good accuracy based on forward cracks.
 - Demand: I am using my model for daily demand forecast.
-- Import/Exports: PADDs 1 and 5 rely heavily on imports. This can genrally be modelled on arbs based on shipping rates and price diffs with Europe and Asia.
+- Import/Exports: PADDs 1 and 5 rely heavily on imports. This can genrally be modelled on arbs based on shipping rates and price diffs with Europe and Asia. (This critical data is missing from this model. subscription based data are available)
 
 ![U.S. PADD Regions](https://www.eia.gov/petroleum/gasdiesel/images/paddmap-gas-m2.png)
 
@@ -53,7 +53,7 @@ Total U.S. weekly demand estimates vs DOE
  **3) Prices**
  - This is the only part of the project that I used R instead of Python. File is uploaded as LASSO.r.
  - I ran LASSO to find the best model for each spread.
- - The example I give here is LA_NY_M2 Jet Fuel spread. (I must mention that imp/exp arbs are the key variables missing from the model)
+ - The example I give here is LA_NY_M2 Jet Fuel spread. (I must mention again that imp/exp arbs are the key variables missing from the model)
  
  ![LA_NA_M@](https://github.com/mucholian/Air-Traffic/blob/master/supporting_data/LA_NY_M2.png)
  
