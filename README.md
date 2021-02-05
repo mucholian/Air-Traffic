@@ -21,7 +21,7 @@ As a result, an increasing number of commodity traders are actively looking at J
 
 ## Data
 1) **OpenSkyNetwork** for detailed air traffic data https://opensky-network.org/. OpenSky has strong coverage only for the US and Europe. OpenSky covers near 70% of US flights, which is enough this project. This is the link to the REST API https://opensky-network.org/apidoc/rest.html .(Their Python API is dysfunctional)
-- The opensky_api.py file in the python_modules folder collected 5 years of data from opensky and stored about 3GB of data in my local database. For this model, I have used air traffic for 50 busiest airports in the US to estimate regional Jet Fuel demand.  ***Please ask OpenSky for license if you intend to use their data***
+- The opensky_api.py file in the python_modules folder collected 5 years of data from opensky and stored about 3GB of data in a local database. For this model, I have used air traffic for 50 busiest airports in the US to estimate regional Jet Fuel demand.  ***Please ask OpenSky for license if you intend to use their data***
 2) **EnergyAspects (EA)** for historical data, and balances forecast. EA is exceptionally strong in the oil and products markets, particularly Jet Fuel, and their estimates often forms consensus. **(EA data is subscription based)**
 3) **The EIA** for historical (and lagged) PADD level S/D data, and for more recent, but less detailed, weekly data.
 4) **Bloomberg** for historical prices.
